@@ -36,7 +36,7 @@ Este projeto é um serviço de gerenciamento de carrinho de compras desenvolvido
 
 ## ⚙️ Melhorias no Projeto
 - - [x] Documentar a API utilizando Swagger
-- - [ ] Implementar testes unitários
+- - [x] Implementar testes unitários
 - - [ ] Implementar testes de integração
 - - [ ] Adicionar Mocks utilizando Mockito
 - - [ ] Fazer o deploy do projeto em uma instância EC2 na AWS
