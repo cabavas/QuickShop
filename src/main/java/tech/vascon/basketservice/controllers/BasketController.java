@@ -22,8 +22,18 @@ public class BasketController {
         return ResponseEntity.ok(service.findAll());
     }
 
+  @GetMapping("/{id}")
+  public ResponseEntity<Basket> findById(@PathVariable String id) {
+    return ResponseEntity.ok(service.findById(id));
+  }
+
     @PostMapping
     public ResponseEntity<Basket> create(@RequestBody BasketRequest request) {
         return ResponseEntity.status(HttpStatus.CREATED).body(service.create(request));
     }
+
+  @PutMapping("/{id}")
+  public ResponseEntity<Basket> update(@RequestBody BasketRequest request, @PathVariable String id) {
+    return ResponseEntity.status(HttpStatus.CREATED).body(service.update(id, request));
+  }
 }

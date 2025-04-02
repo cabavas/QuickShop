@@ -8,7 +8,7 @@ import tech.vascon.basketservice.entity.Status;
 import java.util.Optional;
 
 @Repository
-public interface BasketRepository extends MongoRepository<Basket, Long> {
+public interface BasketRepository extends MongoRepository<Basket, String> {
 
     Optional<Basket> findByClientAndStatus(Long client, Status status);
 }
