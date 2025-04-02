@@ -34,8 +34,8 @@ Este projeto é um serviço de gerenciamento de carrinho de compras desenvolvido
 - **Docker** - Containerização
 - **Docker Compose** - Orquestração local
 
-## ⚙️ To Do
-- - [ ] Documentar a API utilizando Swagger
+## ⚙️ Melhorias no Projeto
+- - [x] Documentar a API utilizando Swagger
 - - [ ] Implementar testes unitários
 - - [ ] Implementar testes de integração
 - - [ ] Adicionar Mocks utilizando Mockito
