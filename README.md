@@ -1,6 +1,5 @@
 # Gerenciamento de Carrinho de Compras - Java + Spring Boot
 
-![java10x Logo](https://java10x.dev/wp-content/uploads/2024/12/logo-java.png)
 
 > Um serviço robusto de gerenciamento de carrinho de compras com tecnologias modernas, documentação completa e pronta para produção.
 
